@@ -1,0 +1,75 @@
+.container {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    width: 400px;
+  }
+form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ffed49;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    line-height: normal;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    color: aqua;
+    display: flex;
+    align-items: center;
+  }
+  
+  li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  li label {
+    flex-grow: 1;
+  }
+  
+  button#deleteButton {
+    padding: 10px 20px;
+    background-color: #66d0eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .task {
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .completed {
+    background-color: lightgreen;
+    text-decoration: line-through;
+    animation-name: completedAnimation;
+    animation-duration: 0.3s;
+  }
+  
+  @keyframes completedAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  button.active {
+    background-color: #ff8e8e;
+    color: white;
+  }
+  
+
+  
+  
