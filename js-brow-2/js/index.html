@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="container">
+        
+        <form id="addButton">
+          <input type="text" placeholder="Ingresa tu nueva tarea" id="new-task-input">
+          <button type="submit">Add</button>
+        </form>
+        <div>
+          <button id="completed-filter" data-filter="completed">Completadas</button>
+          <button id="pending-filter" data-filter="pending">Pendientes</button>
+          
+          
+        </div>
+        
+        
+        <ul id="listItems">
+          
+        </ul>
+      
+        <button id="deleteButton">Eliminar todas las tareas completas</button>
+      </div>
+      
+      
+    <script src="Js index.js"></script>
+  </body>
+</html>
