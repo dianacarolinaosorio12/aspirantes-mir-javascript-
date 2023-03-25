@@ -1,0 +1,160 @@
+.container {
+<<<<<<< HEAD
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fe5f5f;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+    color: #9b83f4;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #ff9494;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #ff7f7f;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #de5e5e;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #d2fdd7;
+    color: #ff9f7c;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button.active {
+    background-color: #fe5f5f;
+    color: #7e0e0e;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffcdcd;
+    border-bottom: 1px solid #ffe8e8;
+  }
+  
+  .completed {
+=======
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    width: 400px;
+  }
+form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ffed49;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    line-height: normal;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    color: aqua;
+    display: flex;
+    align-items: center;
+  }
+  
+  li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  li label {
+    flex-grow: 1;
+  }
+  
+  button#deleteButton {
+    padding: 10px 20px;
+    background-color: #66d0eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .task {
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .completed {
+    background-color: lightgreen;
+>>>>>>> develop
+    text-decoration: line-through;
+    animation-name: completedAnimation;
+    animation-duration: 0.3s;
+  }
+  
+  @keyframes completedAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+<<<<<<< HEAD
+  
+  li:hover {
+    background-color: #f5f5f5;
+  }
+  
+  li .delete {
+    font-size: 16px;
+    color: #f00;
+    cursor: pointer;
+  }
+  
+  .delete:hover {
+    color: #c00;
+  }
+=======
+
+  button.active {
+    background-color: #ff8e8e;
+    color: white;
+  }
+  
+
+  
+  
+>>>>>>> develop
